@@ -62,7 +62,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/el-yawd/el-yawd.github.io"
+    base: "https://github.com/el-yawd/el-yawd.github.io/edit/main/content"
 
   theme:
     default: dark
