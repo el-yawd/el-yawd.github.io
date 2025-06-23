@@ -26,6 +26,8 @@ to make some money to go to a book event called bienal. Here is the [article](ht
 
 3. I'm a BIG [paçoca](https://en.wikipedia.org/wiki/Pa%C3%A7oca) enjoyer.
 
+4. Yawd stands for **Y**et **A**nother **W**eb **D**ev, but I've not been doing too much web development. I'll find a better acronym for it.
+
 You can reach me out on:
 
 - [X (twitter)](https://x.com/el_yawd)

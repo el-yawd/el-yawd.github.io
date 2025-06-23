@@ -1,4 +1,4 @@
-title: Candle in the Dark
+title: Breakpoint
 languageCode: en-US
 baseURL: https://el-yawd.github.io
 
@@ -7,7 +7,7 @@ module:
   imports:
     - path: github.com/imfing/hextra
 
-# add google analytics
+# TODO: add analytics
 
 outputs:
   home: [HTML, RSS]
@@ -71,4 +71,4 @@ params:
     name: Diego Reis
     email: el-yawd@protonmail.com
 
-  description: "Diego Reis' blog"
+  description: "Diego Reis' blog about life, tech and everthing in between"
