@@ -33,6 +33,11 @@ menu:
       weight: 3
       params:
         type: search
+    - name: RSS
+      weight: 4
+      url: "/index.xml"
+      params:
+        icon: rss
 
 params:
   comments:
