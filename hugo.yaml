@@ -62,7 +62,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/el-yawd/el-yawd.github.io"
 
   theme:
     default: dark
