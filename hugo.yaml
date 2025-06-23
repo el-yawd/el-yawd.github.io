@@ -23,11 +23,14 @@ markup:
 
 menu:
   main:
+    - name: Blog
+      pageRef: /blog
+      weight: 1
     - name: About
       pageRef: /about
       weight: 2
     - name: Search
-      weight: 4
+      weight: 3
       params:
         type: search
 
@@ -37,10 +40,12 @@ params:
     type: giscus
 
     giscus:
-      repo: <repository>
-      repoId: <repository ID>
-      category: <category>
-      categoryId: <category ID>
+      repo: el-yawd/el-yawd.github.io
+      repoId: R_kgDOPAI12g
+      category: Announcements
+      categoryId: DIC_kwDOPAI12s4Cr3Uf
+      mapping: pathname
+      data-loading: lazy
 
   navbar:
     displayTitle: true

@@ -6,6 +6,7 @@ tags = [
     "career",
     "experiences",
 ]
+comments = true
 +++
 
 >This's my first blog post, so if you're reading this, thank you! The idea
@@ -101,18 +102,3 @@ Last but not least, take risks! I'm saying to bet on shitcoins? No! Or lend mone
 
 1. A powerful concept, even routine in programming, is the Ockahm's razor, that says: "[...] The simplest explanation is usually the best one". So, before checking for reace conditions or deadlocks, certify about that semicolon on line 67 :)
 2. For those who read Taleb's books that's the bread and butter of _antifragility_, I recommend any of Nassim's book.
-
-<script src="https://giscus.app/client.js"
-        data-repo="el-yawd/el-yawd.github.io"
-        data-repo-id="R_kgDOPAI12g"
-        data-mapping="title"
-        data-strict="1"
-        data-reactions-enabled="1"
-        data-emit-metadata="1"
-        data-input-position="top"
-        data-theme="dark"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
