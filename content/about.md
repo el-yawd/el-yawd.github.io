@@ -3,7 +3,7 @@ title: 'About'
 ---
 
 
-{{< gol-killua >}}
+![](assets/killua.gif)
 
 
 I'm Diego Reis, a Computer Science student in Brazil currenlty working as Open Source contributor at [Turso](https://turso.tech).
