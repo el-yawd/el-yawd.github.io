@@ -47,10 +47,12 @@ params:
     giscus:
       repo: el-yawd/el-yawd.github.io
       repoId: R_kgDOPAI12g
-      category: Announcements
-      categoryId: DIC_kwDOPAI12s4Cr3Uf
+      category: General
+      categoryId: DIC_kwDOPAI12s4Cr3Ug
       mapping: pathname
       data-loading: lazy
+      data-theme: dark
+      data-mapping: pathname
 
   navbar:
     displayTitle: true
