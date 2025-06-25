@@ -6,7 +6,7 @@ tags = [
     "career",
     "experiences",
 ]
-comments = true
+# comments = true
 +++
 
 >This's my first blog post, so if you're reading this, thank you! The idea
