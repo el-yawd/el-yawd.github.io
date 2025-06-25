@@ -21,7 +21,7 @@ running in the late afternoon and trying new things. Currently my main interests
 
 ![I'm the attending guy right there!](assets/lanchonete.webp)
 
-2. I was theme of a famous brazilian news. Basically I make a raffle of my grandfather's books
+2. I was theme of a famous brazilian news. Basically I made a raffle of my grandfather's books
 to make some money to go to a book event called bienal. Here is the [article](https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2016/09/estudante-rifa-livros-escritos-pelo-avo-para-ir-bienal-do-livro-em-sao-paulo.html)
 
 3. I'm a BIG [paçoca](https://en.wikipedia.org/wiki/Pa%C3%A7oca) enjoyer.
