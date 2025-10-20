@@ -15,6 +15,8 @@ running in the late afternoon and trying new things. Currently my main interests
 - Programming Languages
 - Systems Programming
 
+Checkout my [resume](Resume.pdf)
+
 ## Fun Facts
 
 1. I already worked as a waiter in bars, restaurants, clubs and in my university's cafeteria.
