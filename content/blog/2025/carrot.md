@@ -137,7 +137,7 @@ For instance, `2 + 2` results in the program:
 
 You can check out the full implementation [here](https://github.com/el-yawd/dvm)
 
-# Real Stuff
+## Real Stuff
 
 Now that you just did VMs 101, let's take a deeper look into how SQLite's works. Each
 SQL statement is transformed in a sequence of instructions, for example:
@@ -210,9 +210,24 @@ the equivalent of our `run` function is [sqlite3VdbeExec](https://github.com/sql
 which is basically a _"massive switch statement"_. The main interface of SQLite is [sqlite3_step](https://github.com/sqlite/sqlite/blob/984e4468914b50bc77d1c1c931b913d93a9f6496/src/vdbeapi.c#L895), every time we call it
 it will perform a _step_ in the computation inside the VM, until it reaches an error or ends the result. Cool right?
 
-# Carrot, our language
+## Why?
 
-Now that we're SQLite experts we can start hacking on it.
+Now that we're SQLite experts we can start hacking on it. But as a great philosopher said once:
+
+> Why?
+
+As far as I can tell nobody did this before, so it's cool. Besides that, SQLite provides nice primitives and ACID semantics that no
+other VM do. For instance, SQL has transactions, where roughly a set of statements either all succesfully happens and none happens,
+we could use [function coloring](https://www.tedinski.com/2018/11/13/function-coloring.html) to create ✨_transactional functions_✨, so
+if something goes wrong we can rollback our execution context to the point before doing the operation. Also, we could steal some ideas from
+Lua and expose [tables](https://www.lua.org/pil/2.5.html) as a primitive data type.
+
+I'm not a programming language expert (in fact this is my first PL),
+so I'm not concerned with full correctness or even if this is a good idea in the first place, so let's get some fun :)
+
+
+## Carrot, our language
+
 What I want here is to detach the VM of SQL and be able to write programs like:
 
 ```Rust
