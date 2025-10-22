@@ -38,7 +38,7 @@ architecture decisions like: Stack vs Register based, dispatch strategy, whether
 VMs are powerful, they allow you to encode full Turing complete programs with a relatively simple structure, you just need a Program Counter (PC), an Instruction Set
 Architecture (ISA) and a form of storing your data/opcodes (e.g pilling them onto a stack or using virtual registers), and... you're done.
 
-We'll start by building a tiny VM in Rust to keep things less abstract. Once we've got that foundation we'll look at how SQLite's VM works. but if you truly want to understand this I couldn't recommend a better book than [Crafting Interpreters](https://craftinginterpreters.com/) -- the second part :).
+We'll start by building a tiny VM in Rust to keep things less abstract. Once we've got that foundation we'll look at how SQLite's VM works. But if you truly want to understand this I couldn't recommend a better book than [Crafting Interpreters](https://craftinginterpreters.com/) -- the second part :).
 
 ## The DVM (Dumb Virtual Machine)
 
@@ -154,7 +154,7 @@ addr  opcode         p1    p2    p3    p4             p5  comment
 5     Goto           0     1     0                    0
 ```
 
-It works a bit different than our VM but the concept is the same, let's break this step by step (pun intendent):
+It works a bit different than our VM but the concept is the same, let's break this step by step (pun intended):
 
 1. Every program start at 0 with the `Init` instruction, the value in the register p2 indicates where should we
 go next, in this case to instruction 4;
@@ -250,4 +250,4 @@ txn fn pay() {
 print("Hello world");
 ```
 
-Excited? Me too. Stay tune to the second part where we'll start to do it!
+Excited? Me too. Stay tuned to the second part where we'll start to do it!
