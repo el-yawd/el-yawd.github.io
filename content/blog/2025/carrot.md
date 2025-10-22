@@ -11,7 +11,7 @@ tags = [
 
 SQLite is cool.
 
-It's the most deployed database in the world, it's tiny, expressive and its architecture is quite different than traditional relational databases. SQLite uses a Virtual Machine (VM) called Virtual DataBase Engine (VDBE) to interpret SQL, rather than [Volcano-style](https://paperhub.s3.amazonaws.com/dace52a42c07f7f8348b08dc2b186061.pdf) or [vectorization](https://www.vldb.org/pvldb/vol11/p2209-kersten.pdf). Do you know which other project uses VMs to interpret code? [Lua](https://www.lua.org/doc/jucs05.pdf), [Java](https://en.wikipedia.org/wiki/Java_virtual_machine), [Erlang](https://www.erlang.org/blog/a-brief-beam-primer/) and ~god forbid~ [JavaScript](https://nodejs.org/api/vm.html).
+It's the most deployed database in the world, it's tiny, expressive and its architecture is quite different from traditional relational databases. SQLite uses a Virtual Machine (VM) called Virtual DataBase Engine (VDBE) to interpret SQL, rather than [Volcano-style](https://paperhub.s3.amazonaws.com/dace52a42c07f7f8348b08dc2b186061.pdf) or [vectorization](https://www.vldb.org/pvldb/vol11/p2209-kersten.pdf). Do you know which other project uses VMs to interpret code? [Lua](https://www.lua.org/doc/jucs05.pdf), [Java](https://en.wikipedia.org/wiki/Java_virtual_machine), [Erlang](https://www.erlang.org/blog/a-brief-beam-primer/) and ~god forbid~ [JavaScript](https://nodejs.org/api/vm.html).
 
 But what if we used SQLite’s VM to build a programming language? That's what this series is about.
 
