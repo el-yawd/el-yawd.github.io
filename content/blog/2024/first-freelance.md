@@ -100,5 +100,5 @@ Last but not least, take risks! I'm saying to bet on shitcoins? No! Or lend mone
 
 #### Notes
 
-1. A powerful concept, even routine in programming, is the Ockahm's razor, that says: "[...] The simplest explanation is usually the best one". So, before checking for reace conditions or deadlocks, certify about that semicolon on line 67 :)
-2. For those who read Taleb's books that's the bread and butter of _antifragility_, I recommend any of Nassim's book.
+1. A powerful concept, even routine in programming, is the Ockahm's razor, that says: "[...] The simplest explanation is usually the best one". So, before checking for race conditions or deadlocks, certify about that semicolon on line 67 :)
+2. For those who read Taleb's books, that's the bread and butter of _antifragility_, I recommend any of Nassim's book.
